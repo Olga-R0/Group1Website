@@ -1,0 +1,601 @@
+
+.button1{
+    position: absolute;
+    width: 137px;
+    height: 41px;
+    left: 90%;
+    top: 20px;
+
+    background: #8370D8;
+    border-radius: 25px;
+    border: 0;
+    /* ВХОД */
+
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.button1:hover{
+    background: #644AD8;
+    cursor: pointer;
+}
+.div2{
+        /* меню */
+    position: absolute;
+    width: 100%;
+    height: 83px;
+    left: 0px;
+    top: 76px;
+    background: #8370D8;
+}
+
+.button2_1{
+    position: absolute;
+    width: 25%;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+
+    background: #8370D8;
+    border: 0;
+
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.button2_1:hover{
+    background: #644AD8;
+    cursor: pointer;
+}
+.button2_2{
+    position: absolute;
+    width: 25%;
+    height: 83px;
+    left: 25%;
+    top: 0px;
+
+    background: #8370D8;
+    border: 0;
+
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.button2_2:hover{
+    background: #644AD8;
+    cursor: pointer;
+}
+.button2_3{
+    position: absolute;
+    width: 25%;
+    height: 83px;
+    left: 50%;
+    top: 0px;
+
+    background: #8370D8;
+    border: 0;
+
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.button2_3:hover{
+    background: #644AD8;
+    cursor: pointer;
+}
+.button2_4{
+    position: absolute;
+    width: 25%;
+    height: 83px;
+    left: 75%;
+    top: 0px;
+
+    background: #8370D8;
+    border: 0;
+
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.button2_4:hover{
+    background: #644AD8;
+    cursor: pointer;
+}
+
+.div4{
+    position: absolute;
+    width: 100%;
+    height: 111px;
+    left: 0px;
+    top: 160px;
+
+    padding: 20px;
+
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #3D2D84;
+}
+.div_1_1{
+    position: absolute;
+    width: 50%;
+    height: 720px;
+    left: 0px;
+    top: 271px;
+
+    align-items:center;
+
+    background: #644ad873;
+}
+.div_1_1_1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 576px;
+    height: 338px;
+    left: 12%;
+    top: 10%;
+
+    background: url('../images/chess_1_1.png');
+    
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.467));
+    border-radius: 25px;
+
+}
+.div_1_2{
+    position: absolute;
+    width: 50%;
+    height: 720px;
+    left: 50%;
+    top: 271px;
+    
+    background: #8370d873;
+}
+.p1{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding: 5%;
+    padding-bottom: 2%;
+    color: #000000;
+}
+
+.p2{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding: 5%;
+    padding-top: 1%;
+    color: #000000;
+}
+
+.div_2_1{
+    /* Rectangle 15 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 0px;
+top: 991px;
+
+background: rgba(131, 112, 216, 0.45);
+
+}
+.div_2_2{
+    /* Rectangle 16 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 50%;
+top: 991px;
+
+background: rgba(100, 74, 216, 0.45);
+
+}
+.div_2_2_1{
+    position: absolute;
+    width: 539px;
+    height: 504px;
+    left: 15%;
+    top: 15%;
+
+    background: url('../images/chess_2_1.png');
+    border-radius: 25px;
+}
+
+.p3{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    color: #3A0470;
+}
+
+.p4{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding-left: 5%;
+    padding-top: 2%;
+    color: #000000;
+}
+
+.div_3_1{
+    /* Rectangle 18 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 0px;
+top: 1711px;
+
+background: rgba(100, 74, 216, 0.45);
+
+}
+.div_3_1_1{
+    position: absolute;
+    width: 511px;
+    height: 485px;
+    left: 15%;
+    top: 15%;
+
+    background: url('../images/chess_3_1.png');
+    border-radius: 25px;
+
+}
+
+.div_3_2{
+    /* Rectangle 17 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 50%;
+top: 1711px;
+
+background: rgba(131, 112, 216, 0.45);
+
+}
+.p5{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    color: #3A0470;
+}
+
+.p6{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding: 5%;
+    padding-top: 2%;
+    color: #000000;
+}
+
+.div_4_1{
+/* Rectangle 15 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 0px;
+top: 2431px;
+
+background: rgba(131, 112, 216, 0.45);
+}
+.div_4_2{
+/* Rectangle 16 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 50%;
+top: 2431px;
+
+background: rgba(100, 74, 216, 0.45);
+}
+.div_4_2_2{
+    position: absolute;
+    width: 572px;
+    height: 462px;
+    left: 15%;
+    top: 15%;
+
+    background: url('../images/chess_4_1.png');
+    border-radius: 25px;
+
+}
+.p7{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    color: #3A0470;
+}
+
+.p8{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding: 5%;
+    padding-top: 2%;
+    color: #000000;
+}
+
+.div_5_1{
+    /* Rectangle 20 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 0px;
+top: 3151px;
+
+background: rgba(100, 74, 216, 0.45);
+
+}
+.div_5_1_1{
+/* шахматы 5 1 */
+
+position: absolute;
+width: 531px;
+height: 599px;
+left: 18%;
+top: 10%;
+
+background: url('../images/chess_5_1.png');
+border-radius: 25px;
+
+}
+.div_5_2{
+    /* Rectangle 19 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 50%;
+top: 3151px;
+
+background: rgba(131, 112, 216, 0.45);
+}
+
+.p9{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    color: #3A0470;
+}
+
+.p10{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding: 5%;
+    padding-top: 2%;
+    color: #000000;
+}
+
+.div_6_1{
+    /* шаг 5 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 0px;
+top: 3871px;
+
+background: rgba(131, 112, 216, 0.45);
+    
+}
+.div_6_2{
+    /* шаг 5 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 50%;
+top: 3871px;
+background: rgba(100, 74, 216, 0.45);
+}
+.div_6_2_2{
+position: absolute;
+width: 603px;
+height: 514px;
+left: 10%;
+top: 10%;
+
+background: url('../images/chess_6_1.png');
+border-radius: 25px;
+
+}
+.p11{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    color: #3A0470;
+}
+
+.p12{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding: 5%;
+    padding-top: 2%;
+    color: #000000;
+}
+.div_7_1{
+    /* Rectangle 22 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 0px;
+top: 4591px;
+
+background: rgba(100, 74, 216, 0.45);
+}
+.div_7_1_1{
+    position: absolute;
+    width: 626px;
+    height: 278px;
+    left: 10%;
+    top: 25%;
+
+    background: url('../images/chess_7_1.png');
+    border-radius: 25px;
+
+}
+.div_7_2{
+    /* Rectangle 21 */
+
+position: absolute;
+width: 50%;
+height: 720px;
+left: 50%;
+top: 4591px;
+
+background: rgba(131, 112, 216, 0.45);
+}
+
+.p13{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding: 5%;
+    padding-bottom: 2%;
+    color: #3A0470;
+}
+
+.p14{
+    font-family: 'Cantarell', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    padding: 5%;
+    padding-top: 1%;
+    color: #000000;
+}
+
+.div5{
+/* Rectangle 7 */
+
+position: absolute;
+width: 100%;
+height: 361px;
+left: 0px;
+top: 5311px;;
+
+background: #8370D8;
+
+}
+.p15{
+font-family: 'Cantarell', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 57px;
+text-align: center;
+
+padding: 10px;
+
+color: #FFFFFF;
+}
+
+.p16{
+font-family: 'Cantarell', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 45px;
+text-align:right;
+
+padding-right: 20px;
+
+color: #FFFFFF;
+}
+
+.p17{
+
+font-family: 'Cantarell', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+padding: 5%;
+padding-top: 1%;
+
+color: #FFFFFF;
+
+
+}
