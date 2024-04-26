@@ -10,6 +10,7 @@
     <title>Document</title>
 </head>
 <body>
+    <p><a name="top"></a></p>
     <div class="div1">
         <form action="singin" >
         <button class="button1">Вход</button>
@@ -43,13 +44,13 @@
     <div class = "div5">
         <div class="div_5_1">Содержание</div>
         <ul class="ul1">
-            <li>Этап  1. Блокинг рыцаря.</li>
-            <li>Этап  2. Детализация рыцаря.</li>
-            <li>Этап  3. Настройка материалов, света и композиции.</li>
+            <li><a href="#section1">Этап  1. Блокинг рыцаря.</a></li>
+            <li><a href="#section2">Этап  2. Детализация рыцаря.</a></li>
+            <li><a href="#section3">Этап  3. Настройка материалов, света и композиции.</a></li>
         </ul>
         <hr align="center" width="90%" size="1" color="#fffff" class="hr"/>
         <br />
-        <div class="div_5_2">Этап  1. Блокинг рыцаря.</div>
+        <div class="div_5_2" id="section1">Этап  1. Блокинг рыцаря.</div>
         <p class="p1">Первое, с чего необходимо начать, - это добавление референса в блендер.</p>
         <p class="i1"><img src="{% static 'main/images/knight_1.png' %}" width="50%"></p>
         <p class="p1">Далее переходим к этапу блокинга. 
@@ -128,9 +129,9 @@
         <p class="i1"><img src="{% static 'main/images/knight_14.png' %}" width="50%"></p>
         <p class="p2">Результат 1-го этапа.</p>
         <p class="i1"><img src="{% static 'main/images/knight_15.png' %}" width="50%"></p>
-        <p class="p3">В начало</p>
+        <p class="p3"><a href="#top">В начало</a></p>
         <hr align="center" width="90%" size="1" color="#fffff" />
-        <div class="div_5_2">Этап  2. Детализация рыцаря.</div>
+        <div class="div_5_2" id="section2">Этап  2. Детализация рыцаря.</div>
         <p class="p4">
             На этом этапе нам предстоит детализация созданных ранее объектов путём полигонального редактирования, 
             скульптинга и специальных технологий, позволяющих сглаживать формы.
@@ -212,9 +213,9 @@
             Итоговый результат 2-го этапа.
         </p>
         <p class="i1"><img src="{% static 'main/images/knight_31.png' %}" width="50%"></p>
-        <p class="p3">В начало</p>
+        <p class="p3"><a href="#top">В начало</a></p>
         <hr align="center" width="90%" size="1" color="#fffff" />
-        <div class="div_5_2">Этап  3. Настройка материалов, света и композиции.</div>
+        <div class="div_5_2" id="section3">Этап  3. Настройка материалов, света и композиции.</div>
         <p class="p4">
             На этом этапе предстоит сборка всех деталей в единый объект, настроить материалы, выставить свет и камеру.
         </p>
@@ -285,7 +286,7 @@
             А теперь рендерим нашу композицию!
         </p>
         <p class="i1"><img src="{% static 'main/images/knight_49.png' %}" width="50%"></p>
-        <p class="p3">В начало</p>
+        <p class="p3"><a href="#top">В начало</a></p>
 
         <div class="div6">
             <p class = "p5">
