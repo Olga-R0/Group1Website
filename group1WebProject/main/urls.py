@@ -29,5 +29,6 @@ urlpatterns = [
    # path('singin', views.singin),
     path('login/', views.LoginUser.as_view(), name='login'),
     path('logout/', LogoutView.as_view(), name='logout'),
+    path('unauthorized', views.unauthorized),
    # path('login/', include('users.urls', namespace="users")),
 ]
