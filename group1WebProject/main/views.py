@@ -1,5 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.views import LoginView
+from users.forms import LoginUserForm
 
 def main(request):
     return render(request, 'main/main.html')
@@ -13,3 +17,8 @@ def page4(request):
     return render(request, 'main/page4.html')
 def about(request):
     return HttpResponse("<h1>about</h1>")
+
+class LoginUser(LoginView):
+    form_class = LoginUserForm
+    template_name = 'users/login.html'
+    extra_content = {'title': 'Авторизация'}
