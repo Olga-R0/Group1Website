@@ -1,8 +1,12 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Авторизация</title>
+    <link rel="stylesheet" href="{% static 'main/css/login.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
 </head>
 <body>
 <h1>Авторизация</h1>
@@ -16,7 +20,7 @@
     <div class="form-error">{{ f.errors }}</div>
     {% endfor %}
 
-    <p><button type="submit">Войти</button></p>
+    <p><button type="submit"><span>Войти</span></button></p>
 </form>
 
 </body>
