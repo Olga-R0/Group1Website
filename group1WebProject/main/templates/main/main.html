@@ -17,10 +17,17 @@
     <a href="#" class="back-to-top">В начало</a>
     <header>
         <div class="header login-form">
-            <form action="singin" >
-            <button class="login-button"><span>ВХОД</span></button>
+
+
+            <form action="login/">
+            {% if user.is_authenticated %}
+    <button class="login-button"><span><a href="{% url 'users:logout' %}">ВЫЙТИ</a></span></button>
+{% else %}
+    <button class="login-button"><span><a href="{% url 'users:login' %}">ВОЙТИ</a></span></button>
+{% endif %}
             </form>
-        </div>
+
+
         </div>
         <nav class="header menu">
             <ul>
