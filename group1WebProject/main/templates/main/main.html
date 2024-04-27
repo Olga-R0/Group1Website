@@ -32,8 +32,17 @@
         <nav class="header menu">
             <ul>
                 <li><a href="">ГЛАВНАЯ</a></li>
+                {% if user.is_authenticated %}
                 <li><a href="page2">ТУТОРИАЛ 1</a></li>
+                {% else %}
+                <li><a href="unauthorized">ТУТОРИАЛ 1</a></li>
+                {% endif %}
+
+                {% if user.is_authenticated %}
                 <li><a href="page3">ТУТОРИАЛ 2</a></li>
+                {% else %}
+                <li><a href="unauthorized">ТУТОРИАЛ 2</a></li>
+                {% endif %}
                 <li><a href="page4">О НАС</a></li>
             </ul>
         </nav>

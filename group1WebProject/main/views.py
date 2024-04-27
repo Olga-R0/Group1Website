@@ -15,6 +15,9 @@ def page3(request):
     return render(request, 'main/page3.html')
 def page4(request):
     return render(request, 'main/page4.html')
+def unauthorized(request):
+    return render(request, 'main/unauthorized_access.html')
+
 def about(request):
     return HttpResponse("<h1>about</h1>")
 
