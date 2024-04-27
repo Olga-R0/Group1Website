@@ -13,8 +13,12 @@
 <body>
     <p><a name="top"></a></p>
     <div class="div1">
-        <form action="singin" >
-        <button class="button1">Вход</button>
+        <form action="login/">
+            {% if user.is_authenticated %}
+    <button class="button1"><a href="{% url 'users:logout' %}">Выйти</a></button>
+{% else %}
+    <button class="button1"><a href="{% url 'users:login' %}">Войти</a></button>
+{% endif %}
             </form>
     </div>
     <div class="div2">
@@ -116,7 +120,7 @@
         <div class = "div_7_2">
             <p class="p13">Шаг 6.</p>
             <p class="p14">Осталось только сделать доску для шахмат, цифры, буквы по описанным ранее методам и необходимое количество фигур. Шахматная доска с фигурами готова.</p>
-            <p class="p17"><a href="#top">В начало</a></p>
+            <p class="p17"><a href="#top" style="text-decoration: none; color: #FFFFFF;">В начало</a></p>
         </div>
     </div>
     <div class="div5">

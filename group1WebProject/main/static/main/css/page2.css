@@ -1,10 +1,10 @@
 
 .button1{
     position: absolute;
-    width: 137px;
-    height: 41px;
-    left: 90%;
+    width: 140px;
+    height: 40px;
     top: 20px;
+    right: 20px;
 
     background: #8370D8;
     border-radius: 25px;
@@ -15,11 +15,22 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
     text-transform: uppercase;
 
     color: #FFFFFF;
 }
+
+.div1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .button1:hover{
     background: #644AD8;
     cursor: pointer;
@@ -584,6 +595,7 @@ padding-right: 20px;
 
 color: #FFFFFF;
 }
+
 
 .p17{
 

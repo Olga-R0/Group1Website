@@ -1,9 +1,9 @@
 .button1{
     position: absolute;
-    width: 137px;
-    height: 41px;
-    left: 90%;
+    width: 140px;
+    height: 40px;
     top: 20px;
+    right: 20px;
 
     background: #8370D8;
     border-radius: 25px;
@@ -14,11 +14,17 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
     text-transform: uppercase;
 
     color: #FFFFFF;
 }
+
+.div1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .button1:hover{
     background: #644AD8;
     cursor: pointer;
@@ -168,6 +174,12 @@ background-color: #8370D8;
     left: 40%;
     text-align: center;
 }
+
+.ul1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .ul1{
     font-family: 'Cantarell', sans-serif;
     font-style: normal;
@@ -176,6 +188,7 @@ background-color: #8370D8;
     line-height: 45px;
     margin-left: 2%;
     color: #FFFFFF;
+
 }
 .hr{
     margin-bottom: -3%;
@@ -215,6 +228,11 @@ background-color: #8370D8;
     font-size: 20px;
     line-height: 28px;
     margin-left: 4%;
+    color: #FFFFFF;
+}
+
+.p3 a {
+    text-decoration: none;
     color: #FFFFFF;
 }
 .p4{
