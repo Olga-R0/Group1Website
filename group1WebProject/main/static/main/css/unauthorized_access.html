@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Нет доступа для просмотра данной страницы</title>
+
+    <link rel="stylesheet" href="{% static 'main/css/unauthorized_access.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container_block">
+        <h1>Уважаемый пользователь!<br>Для просмотра уроков необходимо авторизоваться на сайте!</h1>
+        <div class="button-container">
+            <a href="{% url 'users:login' %}">АВТОРИЗОВАТЬСЯ</a>
+            <a href="main">Вернуться на ГЛАВНУЮ страницу</a>
+        </div>
+        
+    </div>
+</body>
+
+</html>
