@@ -125,7 +125,7 @@
             Второй рог отдельно создаваться не будет. 
             С помощью модификатора mirror он будет отзеркален относительно шлема на этапе моделинга и скульптинга.
         </p>
-        <p class="i1"><img src="{% static 'main/images/knight_12.png' %}.png" width="50%"></p>
+        <p class="i1"><img src="{% static 'main/images/knight_12.png' %}" width="50%"></p>
         <p class="p1">
             Лента для оружия создаётся из плоскости и инструмента экструда. Верхняя часть ленты создаётся из куба, так как эта часть объёмная.
         </p>
@@ -241,7 +241,7 @@
         <p class="p1">
             После проделанных операций меняем референс на финальный и подгоняем под него нашу модельку.
         </p>
-        <p class="i1"><img src="knight_42.png" width="50%"></p>
+        <p class="i1"><img src="{% static 'main/images/knight_42.png' %}" width="50%"></p>
         <p class="p1">
             Затем создаём камеру и подключаем camera to <font color="#3A0470">view</font>, чтобы привязать объектив камеры к точке обозрения. 
             Осталось выбрать ракурс по вкусу. 
@@ -278,7 +278,7 @@
             на <font color="#3A0470">world</font> и меняем цвет освещения, 
             либо подключаем карту окружения через добавление <font color="#3A0470">environment texture</font>.
         </p>
-        <p class="i1"><img src="knight_46.png" width="50%"></p>
+        <p class="i1"><img src="{% static 'main/images/knight_46.png' %}" width="50%"></p>
         <p class="p1">
             Теперь осталось лишь зайти в <font color="#3A0470">render properties</font> и настроить рендер. 
             В данном случае советуется установить в 
